@@ -7,9 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E76C997C27B1702400259EB0 /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76C997B27B1702400259EB0 /* LocationsViewController.swift */; };
+		E76C997E27B170B800259EB0 /* EpisodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76C997D27B170B800259EB0 /* EpisodeViewController.swift */; };
+		E76C998127B17CB700259EB0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E76C998027B17CB700259EB0 /* Alamofire */; };
+		E76C998627B17D8000259EB0 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76C998527B17D8000259EB0 /* Character.swift */; };
+		E76C998827B1822D00259EB0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76C998727B1822D00259EB0 /* NetworkManager.swift */; };
+		E76C998A27B192B000259EB0 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76C998927B192B000259EB0 /* Episode.swift */; };
+		E76C998C27B1930200259EB0 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76C998B27B1930200259EB0 /* Location.swift */; };
+		E76C998E27B1A56200259EB0 /* EpisodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76C998D27B1A56200259EB0 /* EpisodeCell.swift */; };
+		E76C999127B25B6500259EB0 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76C999027B25B6500259EB0 /* LocationCell.swift */; };
 		E7CAB11927AFFD6A00AAEC0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CAB11827AFFD6A00AAEC0B /* AppDelegate.swift */; };
 		E7CAB11B27AFFD6A00AAEC0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CAB11A27AFFD6A00AAEC0B /* SceneDelegate.swift */; };
-		E7CAB11D27AFFD6A00AAEC0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CAB11C27AFFD6A00AAEC0B /* ViewController.swift */; };
+		E7CAB11D27AFFD6A00AAEC0B /* CharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CAB11C27AFFD6A00AAEC0B /* CharactersViewController.swift */; };
 		E7CAB12027AFFD6A00AAEC0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7CAB11E27AFFD6A00AAEC0B /* Main.storyboard */; };
 		E7CAB12227AFFD6D00AAEC0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7CAB12127AFFD6D00AAEC0B /* Assets.xcassets */; };
 		E7CAB12527AFFD6D00AAEC0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7CAB12327AFFD6D00AAEC0B /* LaunchScreen.storyboard */; };
@@ -17,10 +26,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E76C997B27B1702400259EB0 /* LocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
+		E76C997D27B170B800259EB0 /* EpisodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeViewController.swift; sourceTree = "<group>"; };
+		E76C998527B17D8000259EB0 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		E76C998727B1822D00259EB0 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E76C998927B192B000259EB0 /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		E76C998B27B1930200259EB0 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		E76C998D27B1A56200259EB0 /* EpisodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeCell.swift; sourceTree = "<group>"; };
+		E76C999027B25B6500259EB0 /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
 		E7CAB11527AFFD6A00AAEC0B /* RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7CAB11827AFFD6A00AAEC0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7CAB11A27AFFD6A00AAEC0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E7CAB11C27AFFD6A00AAEC0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E7CAB11C27AFFD6A00AAEC0B /* CharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewController.swift; sourceTree = "<group>"; };
 		E7CAB11F27AFFD6A00AAEC0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E7CAB12127AFFD6D00AAEC0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7CAB12427AFFD6D00AAEC0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -33,12 +50,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E76C998127B17CB700259EB0 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E76C997A27B16FE700259EB0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E7CAB11C27AFFD6A00AAEC0B /* CharactersViewController.swift */,
+				E76C997B27B1702400259EB0 /* LocationsViewController.swift */,
+				E76C997D27B170B800259EB0 /* EpisodeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E76C998427B17D4800259EB0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E76C998727B1822D00259EB0 /* NetworkManager.swift */,
+				E76C998527B17D8000259EB0 /* Character.swift */,
+				E76C998927B192B000259EB0 /* Episode.swift */,
+				E76C998B27B1930200259EB0 /* Location.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E76C998F27B25B3600259EB0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E7CAB12C27B024D200AAEC0B /* CharacterCell.swift */,
+				E76C999027B25B6500259EB0 /* LocationCell.swift */,
+				E76C998D27B1A56200259EB0 /* EpisodeCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		E7CAB10C27AFFD6A00AAEC0B = {
 			isa = PBXGroup;
 			children = (
@@ -58,11 +107,12 @@
 		E7CAB11727AFFD6A00AAEC0B /* RickAndMorty */ = {
 			isa = PBXGroup;
 			children = (
+				E76C998427B17D4800259EB0 /* Services */,
+				E76C997A27B16FE700259EB0 /* Controllers */,
+				E76C998F27B25B3600259EB0 /* View */,
 				E7CAB11827AFFD6A00AAEC0B /* AppDelegate.swift */,
 				E7CAB11A27AFFD6A00AAEC0B /* SceneDelegate.swift */,
-				E7CAB11C27AFFD6A00AAEC0B /* ViewController.swift */,
 				E7CAB11E27AFFD6A00AAEC0B /* Main.storyboard */,
-				E7CAB12C27B024D200AAEC0B /* CharacterCell.swift */,
 				E7CAB12127AFFD6D00AAEC0B /* Assets.xcassets */,
 				E7CAB12327AFFD6D00AAEC0B /* LaunchScreen.storyboard */,
 				E7CAB12627AFFD6D00AAEC0B /* Info.plist */,
@@ -86,6 +136,9 @@
 			dependencies = (
 			);
 			name = RickAndMorty;
+			packageProductDependencies = (
+				E76C998027B17CB700259EB0 /* Alamofire */,
+			);
 			productName = RickAndMorty;
 			productReference = E7CAB11527AFFD6A00AAEC0B /* RickAndMorty.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +167,9 @@
 				Base,
 			);
 			mainGroup = E7CAB10C27AFFD6A00AAEC0B;
+			packageReferences = (
+				E76C997F27B17CB700259EB0 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = E7CAB11627AFFD6A00AAEC0B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -141,9 +197,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7CAB11D27AFFD6A00AAEC0B /* ViewController.swift in Sources */,
+				E76C997C27B1702400259EB0 /* LocationsViewController.swift in Sources */,
+				E7CAB11D27AFFD6A00AAEC0B /* CharactersViewController.swift in Sources */,
+				E76C998C27B1930200259EB0 /* Location.swift in Sources */,
+				E76C998E27B1A56200259EB0 /* EpisodeCell.swift in Sources */,
+				E76C998627B17D8000259EB0 /* Character.swift in Sources */,
 				E7CAB11927AFFD6A00AAEC0B /* AppDelegate.swift in Sources */,
+				E76C999127B25B6500259EB0 /* LocationCell.swift in Sources */,
+				E76C998827B1822D00259EB0 /* NetworkManager.swift in Sources */,
 				E7CAB11B27AFFD6A00AAEC0B /* SceneDelegate.swift in Sources */,
+				E76C997E27B170B800259EB0 /* EpisodeViewController.swift in Sources */,
+				E76C998A27B192B000259EB0 /* Episode.swift in Sources */,
 				E7CAB12D27B024D200AAEC0B /* CharacterCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,6 +430,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E76C997F27B17CB700259EB0 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E76C998027B17CB700259EB0 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E76C997F27B17CB700259EB0 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E7CAB10D27AFFD6A00AAEC0B /* Project object */;
 }
