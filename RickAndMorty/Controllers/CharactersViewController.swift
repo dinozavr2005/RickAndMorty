@@ -53,4 +53,11 @@ extension CharactersViewController {
 
         return cell
     }
+    
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+    }
+    
+
 }
+
+
